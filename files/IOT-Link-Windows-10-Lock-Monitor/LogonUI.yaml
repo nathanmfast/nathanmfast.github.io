@@ -1,0 +1,13 @@
+processes:
+  - LogonUI
+windows:
+classnames:
+configs:
+  enabled: true
+  discoverable: true
+  advancedMode: false
+  displayName: LogonUI
+  cacheable: true
+  grouped: true
+  compareType: 0
+  interval: 10
