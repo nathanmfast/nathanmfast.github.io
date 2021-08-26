@@ -6,9 +6,11 @@ tags: home-automation
 
 [IOT Link](https://iotlink.gitlab.io/) is a great tool for monitoring / controlling your Windows PC using MQTT. Among its many features is the ability to monitor processes, which can be used to detect whether or not the machine is locked (at least on Windows 10, which has a process called "LogonUI.exe" for the UI of the lock screen). Once you've got it installed and configured, the instructions below will guide you through setting up the process monitor to detect if the machine is locked. 
 
-In subsequent posts, I'll explain how to integrate this with [Home Assistant](https://www.home-assistant.io/) to allow you to lock/unlock your machine via dashboard, scripts, etc. 
+In subsequent posts, I'll explain how to integrate this with [Home Assistant](https://www.home-assistant.io/) to detect whether or not your Windows PC is locked. Then, with other neat things like a [particle_photon_pc_keyboard](https://github.com/nathanmfast/particle_photon_pc_keyboard), which allows you to unlock your Windows PC via MQTT, you can build home automations that do really cool things, like boot up and login to your computer and set the lighting automatically before meetings on your work calendar. 
 
 # Instructions
+
+Install [IOT Link](https://iotlink.gitlab.io/)
 
 Navigate to `C:\ProgramData\IOTLink` or wherever you have IOT Link installed.
 
